@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impulsar | Desarrollo Web</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+
+  <style>
+    /* Parallax efecto */
+    .parallax {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-900">
+
+  <!-- Hero con parallax -->
+  <section class="h-screen flex items-center justify-center bg-black text-white parallax" style="background-image: url('./images/fondo.jpg');">
+    <div class="text-center px-4">
+      <h1 class="text-4xl md:text-6xl font-extrabold animate__animated animate__fadeInDown">Impulsar tu presencia digital</h1>
+      <p class="mt-4 text-lg md:text-2xl animate__animated animate__fadeInUp animate__delay-1s">Creamos páginas web y aplicaciones que impactan y venden</p>
+      <a href="#servicios" class="mt-8 inline-block px-6 py-3 bg-yellow-400 text-black rounded-lg shadow-lg font-bold hover:bg-yellow-300 transition animate__animated animate__zoomIn animate__delay-2s">Comenzar</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12" data-aos="fade-up">Nuestros Servicios</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="100">
+          <h3 class="text-xl font-semibold mb-4">Landing Pages</h3>
+          <p>Diseños atractivos y optimizados para captar clientes y generar ventas inmediatas.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="200">
+          <h3 class="text-xl font-semibold mb-4">Sitios Web Corporativos</h3>
+          <p>Páginas profesionales para tu marca, con identidad sólida y navegación intuitiva.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="300">
+          <h3 class="text-xl font-semibold mb-4">Aplicaciones Web</h3>
+          <p>Soluciones robustas y personalizadas para negocios que buscan crecer y escalar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Parallax intermedia -->
+  <section class="h-96 flex items-center justify-center parallax text-white" style="background-image: url('./images/fondo.jpg');">
+    <h2 class="text-4xl font-bold" data-aos="fade-up">Creamos experiencias digitales inolvidables</h2>
+  </section>
+
+<section id="proyectos" class="py-16 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 animate__animated animate__fadeInDown" data-aos="fade-up">
+      Nuestros Trabajos
+    </h2>
+    <div id="projects-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Cards inyectadas desde JS -->
+    </div>
+  </div>
+</section>
+
+  <!-- Quienes somos -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6" data-aos="fade-right">¿Quiénes somos?</h2>
+      <p class="text-lg text-gray-700 leading-relaxed" data-aos="fade-left">
+        En <strong>Impulsar</strong> ayudamos a empresas y emprendedores a destacar en internet con páginas web modernas, rápidas y optimizadas para crecer. Nuestra misión es que cada cliente tenga una presencia digital profesional y poderosa.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA Final -->
+  <section class="h-96 flex flex-col items-center justify-center bg-gradient-to-r from-yellow-400 to-yellow-500 text-black">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4 animate__animated animate__fadeInUp">¿Listo para tu nueva página?</h2>
+    <a href="#contacto" class="px-6 py-3 bg-black text-white rounded-lg shadow-lg font-bold hover:bg-gray-800 transition animate__animated animate__pulse animate__infinite">Contáctanos</a>
+  </section>
+
+<footer class="bg-gray-900 text-white relative">
+  <div class="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between">
+    
+    <!-- Logo -->
+    <div class="mb-6 md:mb-0">
+      <img src="images/impulsar.png" alt="Logo Impulsar" class="w-36">
+    </div>
+
+    <!-- Texto -->
+    <p class="text-center md:text-left mb-6 md:mb-0">&copy; 2025 Impulsar. Desarrollo Web & Marketing Digital.</p>
+
+    <!-- Redes sociales -->
+    <div class="flex space-x-4">
+      <a href="https://www.facebook.com/impulsarConProposito" target="_blank" class="hover:text-blue-500 transition">
+        <i class="fab fa-facebook-f text-2xl"></i>
+      </a>
+      <a href="https://instagram.com/impulsarsn" target="_blank" class="hover:text-pink-500 transition">
+        <i class="fab fa-instagram text-2xl"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/5493364189749" target="_blank" 
+     class="fixed bottom-5 right-5 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:bg-green-400 transition z-50">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-10 h-10">
+  </a>
+</footer>
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
+
+<!-- Tu JS que inyecta proyectos -->
+<script src="assets/js/projects.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Landing Page - Clínica",
+    "image": "images/clinica.png",
+    "description": "Diseño moderno y optimizado para captar pacientes.",
+    "url": "https://ejemplo.com/clinica"
+  },
+  {
+    "title": "E-commerce de Ropa",
+    "image": "images/tienda.png",
+    "description": "Tienda online responsive con pasarela de pagos.",
+    "url": "https://ejemplo.com/tienda"
+  },
+  {
+    "title": "Iglesia Online",
+    "image": "images/iglesia.png",
+    "description": "Página dinámica con secciones autoadministrables.",
+    "url": "https://ejemplo.com/iglesia"
+  }
+]

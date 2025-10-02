@@ -1,20 +1,38 @@
 [
   {
-    "title": "Landing Page - Clínica",
-    "image": "images/clinica.png",
-    "description": "Diseño moderno y optimizado para captar pacientes.",
-    "url": "https://ejemplo.com/clinica"
+    "title": "Landing Page - Transporte Acuña",
+    "image": "./images/acuña.png",
+    "description": "Diseño moderno y optimizado para servico de grua y logística.",
+    "url": "https://xn--transporteacua-2nb.com.ar/"
   },
   {
-    "title": "E-commerce de Ropa",
-    "image": "images/tienda.png",
-    "description": "Tienda online responsive con pasarela de pagos.",
-    "url": "https://ejemplo.com/tienda"
+    "title": "Landing PAge - Licenciada en Administración",
+    "image": "./images/eipa.png",
+    "description": "Captar clientes relacionados a la administración de empresas.",
+    "url": "https://emanuelafleitasrodriguez.com.ar/"
   },
   {
-    "title": "Iglesia Online",
-    "image": "images/iglesia.png",
-    "description": "Página dinámica con secciones autoadministrables.",
-    "url": "https://ejemplo.com/iglesia"
+    "title": "Mariel Benger - Terapéuta Holística",
+    "image": "./images/mariel.png",
+    "description": "busca promover la salud en la calidad de vida.",
+    "url": "https://marielbenger.com/"
+  },
+  {
+    "title": "Wonka Wonka  eventos",
+    "image": "./images/wonka.png",
+    "description": "Servicio de carros para todo tipo de eventos.",
+    "url": "https://wonkawonkaeventos.com.ar/"
+  },
+  {
+    "title": "Agencia de Mudanzas",
+    "image": "./images/agencia.png",
+    "description": "Servicio de carros para todo tipo de eventosMudanzas seguras y rápidas en toda Argentina.",
+    "url": "https://conectarmudanzas.com/"
+  },
+  {
+    "title": "Irene Alicia Mudano",
+    "image": "./images/irene.png",
+    "description": "formación en constelaciones familiares, terapia sistémica y escucha empática",
+    "url": "https://integrarconstelaciones.com.ar/"
   }
 ]

@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "María González",
+    "mensaje": "El equipo de Impulsar me creó una página increíble, rápida y fácil de usar. Mis clientes la adoran.",
+    "instagram": "https://instagram.com/maria.gonzalez",
+    "imagen": "https://randomuser.me/api/portraits/women/68.jpg"
+  },
+  {
+    "nombre": "Juan Pérez",
+    "mensaje": "Muy profesionales, escucharon todas mis ideas y las plasmaron perfecto en mi sitio web.",
+    "instagram": "https://instagram.com/juanperez",
+    "imagen": "https://randomuser.me/api/portraits/men/45.jpg"
+  },
+  {
+    "nombre": "Lucía Fernández",
+    "mensaje": "Gracias a la nueva web mis ventas aumentaron un montón, estoy feliz con el resultado.",
+    "instagram": "https://instagram.com/lucia.fernandez",
+    "imagen": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "nombre": "Carlos Ramírez",
+    "mensaje": "Excelente servicio, atención rápida y soluciones creativas. Recomiendo 100%.",
+    "instagram": "https://instagram.com/carlosramirez",
+    "imagen": "https://randomuser.me/api/portraits/men/33.jpg"
+  },
+  {
+    "nombre": "Ana Torres",
+    "mensaje": "Mi tienda online ahora se ve profesional y mis clientes están felices con la experiencia.",
+    "instagram": "https://instagram.com/anatorres",
+    "imagen": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "nombre": "Miguel López",
+    "mensaje": "Hicieron un trabajo impecable, respetando los tiempos y superando expectativas.",
+    "instagram": "https://instagram.com/miguellopez",
+    "imagen": "https://randomuser.me/api/portraits/men/56.jpg"
+  },
+  {
+    "nombre": "Sofía Martínez",
+    "mensaje": "La comunicación fue excelente y los resultados hablan por sí solos.",
+    "instagram": "https://instagram.com/sofia.martinez",
+    "imagen": "https://randomuser.me/api/portraits/women/22.jpg"
+  },
+  {
+    "nombre": "Diego Fernández",
+    "mensaje": "Mis proyectos quedaron totalmente funcionales y estéticamente hermosos.",
+    "instagram": "https://instagram.com/diego.fernandez",
+    "imagen": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "nombre": "Valentina Ruiz",
+    "mensaje": "El equipo fue muy creativo y entendió perfectamente mi visión de negocio.",
+    "instagram": "https://instagram.com/valentina.ruiz",
+    "imagen": "https://randomuser.me/api/portraits/women/55.jpg"
+  },
+  {
+    "nombre": "Fernando Gómez",
+    "mensaje": "Recomiendo Impulsar a cualquiera que quiera una web profesional y efectiva.",
+    "instagram": "https://instagram.com/fernandogomez",
+    "imagen": "https://randomuser.me/api/portraits/men/23.jpg"
+  }
+]

@@ -18,24 +18,68 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
+
+    .btn-violeta {
+      background-color: #a21caf; /* violeta flúor */
+      color: #fff;
+  }
+
+  .btn-violeta:hover {
+    background-color: #d946ef; /* hover más claro */
+  }
+
+  #testimonials-slider {
+    display: flex;
+    gap: 1.5rem; /* espacio entre cards */
+    overflow-x: hidden; /* ocultamos scroll */
+    scroll-behavior: smooth;
+}
+
+   .testimonial-card {
+    min-width: 250px; /* tamaño mínimo de la card */
+    max-width: 250px;
+  }
+
+  .testimonial-card img {
+    border-radius: 9999px; /* redondear círculo */
+  }
+
   </style>
 </head>
 <body class="font-sans text-gray-900">
 
-  <!-- Hero con parallax -->
-  <section class="h-screen flex items-center justify-center bg-black text-white parallax" style="background-image: url('./images/fondo.jpg');">
-    <div class="text-center px-4">
-      <h1 class="text-4xl md:text-6xl font-extrabold animate__animated animate__fadeInDown">Impulsar tu presencia digital</h1>
-      <p class="mt-4 text-lg md:text-2xl animate__animated animate__fadeInUp animate__delay-1s">Creamos páginas web y aplicaciones que impactan y venden</p>
-      <a href="#servicios" class="mt-8 inline-block px-6 py-3 bg-yellow-400 text-black rounded-lg shadow-lg font-bold hover:bg-yellow-300 transition animate__animated animate__zoomIn animate__delay-2s">Comenzar</a>
-    </div>
-  </section>
+<!-- Hero con parallax -->
+<section class="h-screen flex items-center justify-center bg-black text-white parallax" style="background-image: url('./images/fondo.jpg');">
+  <div class="text-center px-4">
+    <h1 class="text-4xl md:text-6xl font-extrabold animate__animated animate__fadeInDown">
+      Impulsar tu presencia digital
+    </h1>
+    <p class="mt-4 text-lg md:text-2xl animate__animated animate__fadeInUp animate__delay-1s">
+      Creamos páginas web y aplicaciones que impactan y venden
+    </p>
+
+    <!-- Botón Comenzar -->
+    <a href="#servicios"
+      class="mt-8 inline-block px-6 py-3 bg-yellow-400 text-black rounded-lg shadow-lg font-bold hover:bg-yellow-300 transition animate__animated animate__zoomIn animate__delay-2s">
+      Comenzar
+    </a>
+
+    <!-- Botón Ver Proyectos -->
+<a href="#proyectos"
+  class="mt-4 ml-2 inline-block px-6 py-3 rounded-lg font-bold shadow-lg transition animate__animated animate__zoomIn animate__delay-3s tracking-wide uppercase btn-violeta text-glow">
+  Ver Proyectos
+</a>
+
+
+  </div>
+</section>
+
 
   <!-- Servicios -->
   <section id="servicios" class="py-20 bg-gray-50">
     <div class="max-w-6xl mx-auto px-6 text-center">
       <h2 class="text-3xl font-bold mb-12" data-aos="fade-up">Nuestros Servicios</h2>
-      <div class="grid md:grid-cols-3 gap-8">
+      <div class="grid md:grid-cols-4 gap-8">
         <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="100">
           <h3 class="text-xl font-semibold mb-4">Landing Pages</h3>
           <p>Diseños atractivos y optimizados para captar clientes y generar ventas inmediatas.</p>
@@ -47,6 +91,10 @@
         <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="300">
           <h3 class="text-xl font-semibold mb-4">Aplicaciones Web</h3>
           <p>Soluciones robustas y personalizadas para negocios que buscan crecer y escalar.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="300">
+          <h3 class="text-xl font-semibold mb-4">Marketing digital</h3>
+          <p>Creamos campañas en Meta Ads para generar Leads verdaderos</p>
         </div>
       </div>
     </div>
@@ -60,13 +108,28 @@
 <section id="proyectos" class="py-16 bg-gray-50">
   <div class="max-w-6xl mx-auto px-6">
     <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 animate__animated animate__fadeInDown" data-aos="fade-up">
-      Nuestros Trabajos
+      Nuestros últimos Trabajos
     </h2>
     <div id="projects-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Cards inyectadas desde JS -->
     </div>
   </div>
 </section>
+
+<section id="testimonios" class="py-16 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 animate__animated animate__fadeInDown" data-aos="fade-up">
+      Testimonios de Clientes
+    </h2>
+
+    <div class="overflow-hidden relative">
+      <div id="testimonials-slider" class="flex space-x-6">
+        <!-- Cards se inyectan por JS -->
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <!-- Quienes somos -->
   <section id="about" class="py-20 bg-white">
@@ -89,11 +152,11 @@
     
     <!-- Logo -->
     <div class="mb-6 md:mb-0">
-      <img src="images/impulsar.png" alt="Logo Impulsar" class="w-36">
+      <img src="images/logo.png" alt="Logo Impulsar" class="w-36">
     </div>
 
     <!-- Texto -->
-    <p class="text-center md:text-left mb-6 md:mb-0">&copy; 2025 Impulsar. Desarrollo Web & Marketing Digital.</p>
+    <p class="text-center md:text-left mb-6 md:mb-0">&copy; 2025 Impulsar. Desarrollo Web.</p>
 
     <!-- Redes sociales -->
     <div class="flex space-x-4">
@@ -125,6 +188,7 @@
 
 <!-- Tu JS que inyecta proyectos -->
 <script src="assets/js/projects.js"></script>
+<script src="assets/js/testimonios.js"></script>
 
 </body>
 </html>

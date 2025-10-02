@@ -1,24 +1,24 @@
 [
   {
-    "title": "Landing Page - Transporte Acuña",
+    "title": "Transporte Acuña",
     "image": "./images/acuña.png",
     "description": "Diseño moderno y optimizado para servico de grua y logística.",
     "url": "https://xn--transporteacua-2nb.com.ar/"
   },
   {
-    "title": "Landing PAge - Licenciada en Administración",
+    "title": "Licenciada en Administración",
     "image": "./images/eipa.png",
     "description": "Captar clientes relacionados a la administración de empresas.",
     "url": "https://emanuelafleitasrodriguez.com.ar/"
   },
   {
-    "title": "Mariel Benger - Terapéuta Holística",
+    "title": "Terapéuta Holística",
     "image": "./images/mariel.png",
     "description": "busca promover la salud en la calidad de vida.",
     "url": "https://marielbenger.com/"
   },
   {
-    "title": "Wonka Wonka  eventos",
+    "title": "Wonka Wonka eventos",
     "image": "./images/wonka.png",
     "description": "Servicio de carros para todo tipo de eventos.",
     "url": "https://wonkawonkaeventos.com.ar/"
@@ -30,7 +30,7 @@
     "url": "https://conectarmudanzas.com/"
   },
   {
-    "title": "Irene Alicia Mudano",
+    "title": "Consteladora familiar",
     "image": "./images/irene.png",
     "description": "formación en constelaciones familiares, terapia sistémica y escucha empática",
     "url": "https://integrarconstelaciones.com.ar/"

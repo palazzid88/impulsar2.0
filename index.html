@@ -10,9 +10,25 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   <link rel="icon" type="image/png" href="./images/favicon.png" />
 
-
   <style>
-    /* Parallax efecto */
+    /* ===== CORRECCIONES PARA EVITAR SCROLL LATERAL ===== */
+    html, body {
+      overflow-x: hidden;   /* evita scroll lateral */
+      width: 100%;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* asegura que imágenes y SVG no excedan el contenedor */
+    img, picture, svg, video {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Parallax efecto (desktop) */
     .parallax {
       background-attachment: fixed;
       background-position: center;
@@ -20,31 +36,82 @@
       background-size: cover;
     }
 
+    /* En pantallas pequeñas evitamos background-attachment:fixed (puede romper el layout) */
+    @media (max-width: 768px) {
+      .parallax {
+        background-attachment: scroll;
+        background-position: center;
+      }
+    }
+
+    /* Botón violeta */
     .btn-violeta {
       background-color: #a21caf; /* violeta flúor */
       color: #fff;
-  }
+    }
 
-  .btn-violeta:hover {
-    background-color: #d946ef; /* hover más claro */
-  }
+    .btn-violeta:hover {
+      background-color: #d946ef; /* hover más claro */
+    }
 
-  #testimonials-slider {
-    display: flex;
-    gap: 1.5rem; /* espacio entre cards */
-    overflow-x: hidden; /* ocultamos scroll */
-    scroll-behavior: smooth;
-}
+    /* ===== Testimonios: evitar que el slider produzca overflow del body =====
+       - Permitimos scroll horizontal SÓLO dentro del slider (touch friendly)
+       - Cada card queda en ancho fijo y no estira el contenedor global */
+    #testimonials-slider {
+      display: flex;
+      gap: 1.5rem;
+      overflow-x: auto; /* permitir scroll solo dentro del slider */
+      -webkit-overflow-scrolling: touch; /* scrolling suave en iOS */
+      scroll-behavior: smooth;
+      padding-bottom: 0.5rem; /* espacio para el scroll en móviles */
+      margin-left: 0; margin-right: 0;
+      /* evita que el slider empuje ancho fuera del viewport */
+      max-width: 100%;
+    }
 
-   .testimonial-card {
-    min-width: 250px; /* tamaño mínimo de la card */
-    max-width: 250px;
-  }
+    .testimonial-card {
+      flex: 0 0 auto; /* evita que se estiren en flexbox */
+      min-width: 250px;
+      max-width: 250px;
+    }
 
-  .testimonial-card img {
-    border-radius: 9999px; /* redondear círculo */
-  }
+    .testimonial-card img {
+      border-radius: 9999px;
+    }
 
+    /* ===== Botón flotante de WhatsApp: tamaño fijo y siempre visible ===== */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      width: 56px;
+      height: 56px;
+      background-color: #25D366;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+      z-index: 9999;
+      transition: transform .12s ease, background-color .12s ease;
+      /* animación de pulso suave con animate.css (si está cargado) */
+    }
+
+    .whatsapp-float:hover {
+      transform: translateY(-3px);
+    }
+
+    .whatsapp-float img {
+      width: 28px;
+      height: 28px;
+      display: block;
+    }
+
+    /* Prevención de overflow causado por animaciones/transforms */
+    /* Aplicar overflow hidden en contenedores grandes evita "salidas" momentáneas */
+    section, header, footer, main {
+      max-width: 100%;
+    }
   </style>
 </head>
 <body class="font-sans text-gray-900">
@@ -180,10 +247,10 @@
     </div>
   </div>
 
-  <!-- WhatsApp flotante -->
+  <!-- WhatsApp flotante: clase custom para quitar problemas de tamaño/overflow -->
   <a href="https://wa.me/5493364189749" target="_blank" 
-     class="fixed bottom-5 right-5 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:bg-green-400 transition z-50">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-10 h-10">
+     class="whatsapp-float" aria-label="WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
   </a>
 </footer>
 

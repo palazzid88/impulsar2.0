@@ -15,10 +15,8 @@ fetch("testimonios.json")
         testimonial-card bg-white p-4 rounded-2xl shadow-lg flex-shrink-0 transition transform hover:-translate-y-1 hover:scale-105
       `;
       card.innerHTML = `
-        <img src="${t.imagen}" alt="${t.nombre}" class="w-16 h-16 mb-4 mx-auto rounded-full">
         <h3 class="text-lg font-bold text-center mb-2">${t.nombre}</h3>
         <p class="text-gray-700 text-sm mb-2 text-center">"${t.mensaje}"</p>
-        <a href="${t.instagram}" target="_blank" class="text-blue-500 text-sm block text-center">@${t.instagram.split('/').pop()}</a>
       `;
       contenedor.appendChild(card);
     }

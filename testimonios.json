@@ -1,9 +1,27 @@
 [
   {
-    "nombre": "María González",
-    "mensaje": "El equipo de Impulsar me creó una página increíble, rápida y fácil de usar. Mis clientes la adoran.",
-    "instagram": "https://instagram.com/maria.gonzalez",
-    "imagen": "https://randomuser.me/api/portraits/women/68.jpg"
+    "nombre": "Mariel Berger",
+    "mensaje": "Aparte de quedar muy a gusto con el resultado del servicio, David se comprometió con el trabajo de principio a fin, me tuvo paciencia en todo. Me sentí muy acompañada y estoy muy agradecida.",
+    "instagram": "https://instagram.com/fernandogomez",
+    "imagen": "https://randomuser.me/api/portraits/men/23.jpg"
+  },
+  {
+    "nombre": "Irene Mudano",
+    "mensaje": "Desde el comienzo, con una entrevista muy efectiva donde sentí que se comprendía mi pedido, me brindaron todo el asesoramiento necesario de una manera personalizada, con paciencia y un lenguaje fácil de entender. Estoy muy cntenta con mi página, tienen un profecionalismo único.",
+    "instagram": "https://instagram.com/fernandogomez",
+    "imagen": "https://randomuser.me/api/portraits/men/23.jpg"
+  },
+  {
+    "nombre": "Fernando García",
+    "mensaje": "Enamorado de mi pagina web, pero mas allá de eso quiero destacar el sentido humano, apoyo y guía de David, esto hizo la diferencia a la hora de decidir a quien contratar, y la verdad que fue un acierto total. Super recomendable.",
+    "instagram": "https://instagram.com/fernandogomez",
+    "imagen": "https://randomuser.me/api/portraits/men/23.jpg"
+  },
+  {
+    "nombre": "Transporte Acuña",
+    "mensaje": "Agradecemos a @impulsarsn que nos brindó una excelente atención en todo momento y nos diseñó nuestra pagina web. ¡Gracias por el compromiso y el buen trabajo!",
+    "instagram": "https://instagram.com/transporte.acu?igsh=e6wza2V1NzNxcjJ5",
+    "imagen": "./images/acuña-logo.png"
   },
   {
     "nombre": "Juan Pérez",
@@ -25,7 +43,7 @@
   },
   {
     "nombre": "Ana Torres",
-    "mensaje": "Mi tienda online ahora se ve profesional y mis clientes están felices con la experiencia.",
+    "mensaje": "Mi tienda online ahora se ve profesional, la verdad que quedé sorprendido con lo que logramos!.",
     "instagram": "https://instagram.com/anatorres",
     "imagen": "https://randomuser.me/api/portraits/women/44.jpg"
   },
@@ -58,5 +76,5 @@
     "mensaje": "Recomiendo Impulsar a cualquiera que quiera una web profesional y efectiva.",
     "instagram": "https://instagram.com/fernandogomez",
     "imagen": "https://randomuser.me/api/portraits/men/23.jpg"
-  }
+  }  
 ]

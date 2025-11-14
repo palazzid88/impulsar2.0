@@ -1,4 +1,28 @@
 [
+    {
+    "title": "Tanocell Comunicaciones",
+    "image": "./images/tanocell.png",
+    "description": "E-commers autoadministrable con venta directa por WhatsApp.",
+    "url": "https://tanocellcomunicaciones.com.ar/"
+  },
+  {
+    "title": "Fusión Creativa",
+    "image": "./images/productora.png",
+    "description": "Importante Productora de TV.",
+    "url": "vhttps://productora-tv.vercel.app/"
+  },
+  {
+    "title": "Valentinos Ambos",
+    "image": "./images/valentinos.png",
+    "description": "Ambos de indumentaria vinculada a la salud.",
+    "url": "https://valentinosambos.com.ar/"
+  },
+  {
+    "title": "Rodes Argentina",
+    "image": "./images/rodes.png",
+    "description": "Empresa nexo entre desarmaderos y compradores de autopartes.",
+    "url": "https://rodesargentina.com.ar/"
+  },
   {
     "title": "Transporte Acuña",
     "image": "./images/acuña.png",
@@ -35,4 +59,5 @@
     "description": "formación en constelaciones familiares, terapia sistémica y escucha empática",
     "url": "https://integrarconstelaciones.com.ar/"
   }
+
 ]
